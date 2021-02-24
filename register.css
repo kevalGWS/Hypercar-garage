@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(147, 163, 206);
+}
+.container {
+  border-radius: 50px;
+  box-shadow: black 0px 0px 25px;
+}
+#regim {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+button {
+  width: 100%;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  align-self: start;
+  box-shadow: black 0px 0px 12px;
+}
+button img {
+  height: 35px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: auto;
+}
+.btnfb {
+  background-color: rgb(53, 53, 238);
+  color: white;
+  border: solid blue;
+}
+.btngm {
+  background-color: rgb(241, 45, 45);
+  color: white;
+  border: rgb(241, 45, 45) solid;
+}
+.btnem {
+  background-color: rgb(123, 255, 71);
+  color: white;
+  border: rgb(123, 255, 71) solid;
+}
+.btnfb:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+.btnem:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+.btngm:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+#slo1 {
+  font-size: 50px;
+}
